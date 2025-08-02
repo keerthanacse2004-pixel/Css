@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+p {
+    color: rgb(255, 0, 166);
+    background-color: burlywood;
+}
+
+.highlight {
+ background-color: yellow;
+ font-weight: bold;
+}
+
+#main-heading {
+ height: 200px;
+ background-color: gray;
+}
+
+h1,p {
+    color: rgb(152, 29, 113);
+}
+div span {
+ color: green;
+}
+ul > li {
+ list-style: none;
+}
+h1 + p {
+ color: red;
+ font-style: italic;
+}
+h1 ~ p {
+ font-style: italic;
+}
+input[type="text"] {
+ border: 2px solid blue;
+}
