@@ -1,39 +1,43 @@
-* {
-    margin:0;
-    padding:0;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(239, 4, 4, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  box-shadow: #000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: solid;
 }
 
-p {
-    color: rgb(255, 0, 166);
-    background-color: burlywood;
+.title {
+  color: rgb(164, 12, 177);
+  font-size: 18px;
+  text-shadow: 20em;
+   
 }
 
-.highlight {
- background-color: yellow;
- font-weight: bold;
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }
 
-#main-heading {
- height: 200px;
- background-color: gray;
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
 }
 
-h1,p {
-    color: rgb(152, 29, 113);
+button:hover, a:hover {
+  opacity: 0.7;
 }
-div span {
- color: green;
-}
-ul > li {
- list-style: none;
-}
-h1 + p {
- color: red;
- font-style: italic;
-}
-h1 ~ p {
- font-style: italic;
-}
-input[type="text"] {
- border: 2px solid blue;
-}
+
+
+
+
