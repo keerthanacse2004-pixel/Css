@@ -1,0 +1,195 @@
+.container {
+
+display: grid;
+grid-template-columns: repeat(3, 1fr); /* example: 4 columns */
+
+
+}
+.container div {
+    margin: 50px;
+    padding: 50px;
+    border: 3px solid blue;
+    width: 200px;
+    height: 200px;
+}
+h1 {
+    text-align: center;
+    text-shadow: 50px;
+    text-decoration: underline;
+     background: linear-gradient(to right, orange, white, green);
+}
+
+
+.box1{
+    background-image: url(Mg.jpg);
+     background-size:320px;
+     background-position: center;
+     width: 300px;
+     height: 150px;
+     object-fit: cover;
+}
+.box2{
+    background-image: url(n.jpg);
+     background-size:350px;
+     background-position: center;
+     width: 300px;
+     height: 150px;
+     object-fit: cover;
+}
+.box3{
+    background-image: url(r.jpg);
+     background-size:300px;
+     background-position: center;
+     width: 300px;
+     height: 150px;
+     object-fit: cover;
+}
+.box4{
+    background-image: url(s.png);
+     background-size:350px;
+     background-position: center;
+     width: 300px;
+     height: 150px;
+     object-fit: cover;
+}
+.box5{
+    background-image: url(b.png);
+     background-size:350px;
+     background-position: center;
+     width: 300px;
+     height: 150px;
+     object-fit: cover;
+}
+.box6{
+    background-image: url(subhash-chandra-bose.jpg);
+     background-size:350px;
+     background-position: center;
+     width: 300px;
+     height: 150px;
+     object-fit: cover;
+}
+.container div:hover {
+    transform: scale(1.05);       
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.755); 
+    transition: all 0.3s ease;     
+    cursor: pointer;               
+}
+.box1:hover span {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+.box2:hover span {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+.box3:hover span {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+.box4:hover span {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+.box5:hover span {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+.box6:hover span {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+.box1 span {
+    position: absolute;
+    padding: 10px;
+    background: rgba(214, 210, 210, 0.889);
+    color: rgb(9, 4, 4);
+    font-size: 18px;
+    text-align: center;
+    opacity: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+    transition: all 0.4s ease;
+}
+.box2 span {
+    position: absolute;
+    padding: 10px;
+    background: rgba(214, 210, 210, 0.889);
+    color: rgb(9, 4, 4);
+    font-size: 18px;
+    text-align: center;
+    opacity: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+    transition: all 0.4s ease;
+}
+.box3 span {
+    position: absolute;
+    padding: 10px;
+    background: rgba(214, 210, 210, 0.889);
+    color: rgb(9, 4, 4);
+    font-size: 18px;
+    text-align: center;
+    opacity: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+    transition: all 0.4s ease;
+}
+.box4 span {
+    position: absolute;
+    padding: 10px;
+    background: rgba(214, 210, 210, 0.889);
+    color: rgb(9, 4, 4);
+    font-size: 18px;
+    text-align: center;
+    opacity: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+    transition: all 0.4s ease;
+}
+.box5 span {
+    position: absolute;
+    padding: 10px;
+    background: rgba(214, 210, 210, 0.889);
+    color: rgb(9, 4, 4);
+    font-size: 18px;
+    text-align: center;
+    opacity: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+    transition: all 0.4s ease;
+}
+.box6 span {
+    position: absolute;
+    padding: 10px;
+    background: rgba(214, 210, 210, 0.889);
+    color: rgb(9, 4, 4);
+    font-size: 18px;
+    text-align: center;
+    opacity: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+    transition: all 0.4s ease;
+}
+ .box1 p {
+    text-align: center;
+    font-size: 14px; 
+    color: #333;
+ }
